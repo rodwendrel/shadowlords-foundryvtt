@@ -1,0 +1,58 @@
+{
+  "SHADOWLORDS": {
+    "Ability": {
+      "Str": {
+        "long": "FOR",
+        "abbr": "str"
+      },
+      "Con": {
+        "long": "SAU",
+        "abbr": "con"
+      },
+      "Dex": {
+        "long": "AGI",
+        "abbr": "dex"
+      },
+      "Int": {
+        "long": "INT",
+        "abbr": "int"
+      },
+      "Wis": {
+        "long": "SAB",
+        "abbr": "wis"
+      },
+      "Cha": {
+        "long": "PER",
+        "abbr": "cha"
+      }
+    },
+    "SheetLabels": {
+      "Actor": "Shadowlords Actor Sheet",
+      "Item": "Shadowlords Item Sheet"
+    },
+    "Item": {
+      "Spell": {
+        "SpellCost": "Custo"
+      }
+    },
+    "Effect": {
+      "Source": "Source",
+      "Toggle": "Toggle Effect",
+      "Temporary": "Temporary Effects",
+      "Passive": "Passive Effects",
+      "Inactive": "Inactive Effects"
+    }
+  },
+  "TYPES": {
+    "Actor": {
+      "character": "Personagem",
+      "npc": "NPC"
+    },
+    "Item": {
+      "item": "Item",
+      "feature": "Habilidade",
+      "spell": "Magia",
+      "equipment": "Equipamento"
+    }
+  }
+}

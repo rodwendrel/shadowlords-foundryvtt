@@ -1,0 +1,441 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+/* Global styles */
+.window-app {
+  font-family: "Marcellus", sans-serif;
+}
+
+.vtt .window-content {
+  background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");
+  background-position: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.rollable:hover, .rollable:focus {
+  color: #000000;
+  text-shadow: 0 0 10px rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.grid,
+.grid-2col {
+  display: grid;
+  grid-column: span 2/span 2;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.grid-3col {
+  grid-column: span 3/span 3;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-4col {
+  grid-column: span 4/span 4;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-5col {
+  grid-column: span 5/span 5;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.grid-6col {
+  grid-column: span 6/span 6;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.grid-7col {
+  grid-column: span 7/span 7;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+.grid-8col {
+  grid-column: span 8/span 8;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+
+.grid-9col {
+  grid-column: span 9/span 9;
+  grid-template-columns: repeat(9, minmax(0, 1fr));
+}
+
+.grid-10col {
+  grid-column: span 10/span 10;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+
+.grid-11col {
+  grid-column: span 11/span 11;
+  grid-template-columns: repeat(11, minmax(0, 1fr));
+}
+
+.grid-12col {
+  grid-column: span 12/span 12;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.grid-start-2 {
+  grid-column-start: 2;
+}
+
+.grid-start-3 {
+  grid-column-start: 3;
+}
+
+.grid-start-4 {
+  grid-column-start: 4;
+}
+
+.grid-start-5 {
+  grid-column-start: 5;
+}
+
+.grid-start-6 {
+  grid-column-start: 6;
+}
+
+.grid-start-7 {
+  grid-column-start: 7;
+}
+
+.grid-start-8 {
+  grid-column-start: 8;
+}
+
+.grid-start-9 {
+  grid-column-start: 9;
+}
+
+.grid-start-10 {
+  grid-column-start: 10;
+}
+
+.grid-start-11 {
+  grid-column-start: 11;
+}
+
+.grid-start-12 {
+  grid-column-start: 12;
+}
+
+.grid-span-2 {
+  grid-column-end: span 2;
+}
+
+.grid-span-3 {
+  grid-column-end: span 3;
+}
+
+.grid-span-4 {
+  grid-column-end: span 4;
+}
+
+.grid-span-5 {
+  grid-column-end: span 5;
+}
+
+.grid-span-6 {
+  grid-column-end: span 6;
+}
+
+.grid-span-7 {
+  grid-column-end: span 7;
+}
+
+.grid-span-8 {
+  grid-column-end: span 8;
+}
+
+.grid-span-9 {
+  grid-column-end: span 9;
+}
+
+.grid-span-10 {
+  grid-column-end: span 10;
+}
+
+.grid-span-11 {
+  grid-column-end: span 11;
+}
+
+.grid-span-12 {
+  grid-column-end: span 12;
+}
+
+.flex-group-center,
+.flex-group-left,
+.flex-group-right {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.flex-group-left {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.flex-group-right {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.flexshrink {
+  flex: 0;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.flexlarge {
+  flex: 2;
+}
+
+.align-left {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.align-right {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.align-center {
+  justify-content: center;
+  text-align: center;
+}
+
+/* Styles limited to shadowlords3e sheets */
+.shadowlords3e {
+  /* Custom Css */
+}
+.shadowlords3e .item-form {
+  font-family: "Marcellus", sans-serif;
+}
+.shadowlords3e .sheet-header {
+  flex: 0 auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.shadowlords3e .sheet-header .profile-img {
+  flex: 0 0 100px;
+  height: 150px;
+  margin-right: 10px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.shadowlords3e .sheet-header .header-fields {
+  flex: 1;
+}
+.shadowlords3e .sheet-header h1.charname {
+  height: 50px;
+  padding: 0px;
+  margin: 5px 0;
+  border-bottom: 0;
+}
+.shadowlords3e .sheet-header h1.charname input {
+  width: 100%;
+  height: 70%;
+  margin: 0;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+  color: #fff;
+}
+.shadowlords3e .sheet-header h1.charname input::placeholder {
+  color: rgba(255, 255, 255, 0.2666666667);
+}
+.shadowlords3e .sheet-header h1.charname input:focus {
+  box-shadow: none;
+}
+.shadowlords3e .sheet-tabs {
+  flex: 0;
+}
+.shadowlords3e .sheet-body,
+.shadowlords3e .sheet-body .tab,
+.shadowlords3e .sheet-body .tab .editor {
+  height: 100%;
+}
+.shadowlords3e .tox .tox-editor-container {
+  background: #fff;
+}
+.shadowlords3e .tox .tox-edit-area {
+  padding: 0 8px;
+}
+.shadowlords3e .resource-inputs {
+  color: #fff;
+}
+.shadowlords3e .border-input {
+  border-radius: 25%;
+  font-size: 1.2rem;
+  height: 60px;
+  width: 60px;
+  border: 1px solid #fff;
+}
+.shadowlords3e .border-input:focus {
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.shadowlords3e .tabs .item.active {
+  text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.shadowlords3e a:active, .shadowlords3e a:hover, .shadowlords3e a:focus {
+  text-shadow: 0 0 10px rgb(255, 255, 255);
+  cursor: pointer;
+}
+.shadowlords3e .resource-label {
+  font-weight: bold;
+}
+.shadowlords3e .items-header {
+  height: 28px;
+  margin: 2px 0;
+  padding: 0;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.05);
+  border: 2px groove #eeede0;
+  font-weight: bold;
+}
+.shadowlords3e .items-header > * {
+  font-size: 14px;
+  text-align: center;
+}
+.shadowlords3e .items-header .item-name {
+  font-weight: bold;
+  padding-left: 5px;
+  text-align: left;
+  display: flex;
+}
+.shadowlords3e .items-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  color: rgba(255, 255, 255, 0.371);
+}
+.shadowlords3e .items-list .item-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.shadowlords3e .items-list .item-name {
+  flex: 2;
+  margin: 0;
+  overflow: hidden;
+  font-size: 13px;
+  text-align: left;
+  align-items: center;
+  display: flex;
+}
+.shadowlords3e .items-list .item-name h3,
+.shadowlords3e .items-list .item-name h4 {
+  color: #fff;
+  margin: 0;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+.shadowlords3e .items-list .item-controls {
+  display: flex;
+  flex: 0 0 100px;
+  justify-content: flex-end;
+}
+.shadowlords3e .items-list .item-controls a {
+  font-size: 12px;
+  text-align: center;
+  margin: 0 6px;
+  color: #fff;
+}
+.shadowlords3e .items-list .item-controls-header {
+  display: flex;
+  flex: 0 0 100px;
+  justify-content: flex-end;
+}
+.shadowlords3e .items-list .item-controls-header a {
+  font-size: 12px;
+  text-align: end;
+  margin: 0 6px;
+  width: 150px;
+  color: #fff;
+}
+.shadowlords3e .items-list .item {
+  align-items: center;
+  padding: 0 2px;
+  border-bottom: 1px solid #c9c7b8;
+}
+.shadowlords3e .items-list .item:last-child {
+  border-bottom: none;
+}
+.shadowlords3e .items-list .item .item-name {
+  color: #191813;
+}
+.shadowlords3e .items-list .item .item-name .item-image {
+  flex: 0 0 30px;
+  height: 30px;
+  background-size: 30px;
+  border: none;
+  margin-right: 5px;
+}
+.shadowlords3e .items-list .item-prop {
+  text-align: center;
+  border-left: 1px solid #c9c7b8;
+  border-right: 1px solid #c9c7b8;
+  font-size: 12px;
+}
+.shadowlords3e .items-list .items-header {
+  height: 28px;
+  margin: 2px 0;
+  padding: 0;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.05);
+  border: 2px groove #eeede0;
+  font-weight: bold;
+}
+.shadowlords3e .items-list .items-header > * {
+  font-size: 12px;
+  text-align: center;
+}
+.shadowlords3e .items-list .items-header .item-name {
+  padding-left: 5px;
+  text-align: left;
+}
+.shadowlords3e .item-formula {
+  flex: 0 0 200px;
+  padding: 0 8px;
+}
+.shadowlords3e h2 {
+  border: none;
+}
+.shadowlords3e .item-input {
+  border: none;
+}
+.shadowlords3e .item-input-border {
+  font-size: 1.2rem;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 15px;
+}
+.shadowlords3e .item-input-border:focus {
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.shadowlords3e .effects .item .effect-source,
+.shadowlords3e .effects .item .effect-duration,
+.shadowlords3e .effects .item .effect-controls {
+  text-align: center;
+  border-left: 1px solid #c9c7b8;
+  border-right: 1px solid #c9c7b8;
+  font-size: 12px;
+}
+.shadowlords3e .effects .item .effect-controls {
+  border: none;
+}
+
+/*# sourceMappingURL=shadowlords3e.css.map */
